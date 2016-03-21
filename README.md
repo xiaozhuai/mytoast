@@ -26,3 +26,9 @@ mToast.show();
 //系统原本的LENGTH_SHORT，LENGTH_LONG已从这个类里移除，请不要在这个类里使用
 
 ```
+
+### 编译
+你必须将源码放到android源码中编译，否则某些@hide类无法import。
+编译将生成jar，可以在你的项目中导入这个jar来使用它。
+你也可以访问这里来下在编译好的jar。
+[http://xiaozhuai.github.io/2016/01/10/mytoast/](http://xiaozhuai.github.io/2016/01/10/mytoast/)
